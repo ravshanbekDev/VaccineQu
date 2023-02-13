@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import house from "../../Images/house.svg";
 
 export default function Position() {
   return (
-    <div className='bg-[#F2F2F2] rounded-[10px] w-[514px] h-[400px] relative'>
-
-    </div>
-  )
+    <>
+      <img src={house} alt="house"></img>
+    </>
+  );
 }
